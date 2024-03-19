@@ -47,3 +47,16 @@ document.getElementById('message-input').addEventListener('keypress', function(e
         sendMessage();
     }
 });
+
+
+//Here is code for clear Data
+// const clearButton = document.getElementById('clear-button');
+
+// // Event listener for clear button click
+// clearButton.addEventListener('click', function() {
+//     const chatMessages = document.getElementById('chat-messages');
+//     // Remove all child elements (chat history)
+//     while (chatMessages.firstChild) {
+//         chatMessages.removeChild(chatMessages.firstChild);
+//     }
+// });
